@@ -13,3 +13,5 @@ I want to learn Front-End Development
 ```
 ### Work experience:
 _Nothing yet…_
+### Language:
+English level - A0
