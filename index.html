@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"/>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+          
+          <nav class="nav">
+              
+              <ul class="nav-list">
+                <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+              </ul>
+            </nav>
+        </div>
+      </header>   
+      <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+             <h1 class="section-title">Andrey Urusov</h1>
+            <img src="./img/photo.jpg" alt="foto" width="200">
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li> Discord: Андрій Урусов (@urusoff140272)</li>
+                    <li> E-mail: urusov@ukr.net </li>
+                    <li> Tel: +380505121510</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">About myself:</h2>
+                <p>I want to learn Front-End Development</p>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example:</h2>
+                <p>// Sum Numbers</p>
+                <p>sum = function (numbers) { </p>
+                <p>"use strict";</p>
+                <p>return numbers.reduce(function(t, n){</p>
+                <p>return t + n;</p>
+                <p> }, 0);</p>
+                <p>};</p>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Work experience:</h2>
+                <p class="work">Nothing yet…</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Language:</h2>
+                <p class="work">English level - A1</p>
+            </section>
+
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+  
+        </div>
+      </footer>
 </body>
 </html>
